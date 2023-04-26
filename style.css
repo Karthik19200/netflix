@@ -1,0 +1,494 @@
+body
+{
+    background-color: rgb(0, 0, 0);
+}
+#main
+{
+   position: absolute;
+   top:105%;
+    background-color:transparent;
+    width:100%;
+    height:310px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.scroll-btn button
+{
+    position: absolute;
+    top:110%;
+    width:100px;
+    background-color:blue;
+    border: none;
+    font-size: 40px;
+    color:white;
+}
+.avtar
+{
+  height:40px;
+  margin-right: 5%;
+  
+}
+a
+{
+  color:white;
+}
+.scroll-btn-1 button
+{
+    position: absolute;
+    top:110%;
+    right:0%;
+    width:100px;
+    background-color:blue;
+    border: none;
+    font-size: 40px;
+    color:white;
+}
+#main::-webkit-scrollbar
+{
+    display: none;
+    width:0;
+}
+#main2
+{ 
+    margin-top: 20%;
+    background-color: black;
+    width:100%;
+    height:150px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.parent-container-3
+{ 
+    
+    margin-top: 0%;
+    width:100%;
+    height:260px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.movie
+{
+    background-color:rgba(0, 0, 0, 0.953);
+    width: 220px;
+    margin: 0.3%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px#888888;
+    text-align: center; 
+    overflow: hidden;
+    flex: none;  
+}
+#input 
+{
+    background-color: rgba(0, 0, 0, 0.317);
+    width:100px
+}
+.movie:hover
+{
+    transition: 0.8s;
+    width: 234px;
+    height: 310px;
+     
+}
+.parent-container-4
+{
+  display:flex;
+ 
+  margin-top: -4%;
+}
+.movie img
+{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+.movie2 img
+{
+    width:100%;
+    height:100%;
+    border-radius: 2px;
+}
+.movie2
+{
+    background-color:rgba(0, 0, 0, 0.953);
+    width:  364px;
+    height: 182px;
+    
+  margin: 5px;
+    text-align: center;   
+}
+#main::-webkit-scrollbar
+{
+    display: none;
+    width:0;
+}
+
+.movie2:hover
+{
+    transition: 0.8s;
+    width:  370px;
+    height: 182px;   
+}
+#banner h2 
+{
+font-size: 60px;
+position: absolute;
+font-weight: 650;
+top: 20%;
+left: 2%;
+font-size: 70px;
+color:white;
+font-style:normal;
+}
+#banner h1 
+{
+font-size: 70px;
+position: absolute;
+font-weight: 540;
+top:35%;
+left: 2%;
+font-size: 20px;
+color:white;
+font-style:normal;
+}
+#banner button
+{
+background-color: rgba(255, 255, 255, 0.463);
+color:white;
+position: absolute;
+border-radius: 10px;
+top:50%;
+left: 2%;
+width:9%;
+height:60px;
+color:white;
+font-size: 30px;
+}
+
+
+.header h1
+{
+  position:absolute;
+  top:99%;
+  margin-left: 1%;
+  font-size: 30px;
+  color:white;
+}
+.header-2 
+{
+  position:absolute;
+  top:152%;
+  color:white;
+  font-size: 25px;
+  margin-left: 1%;
+
+}
+
+.header-3 
+{
+ 
+  color:white;
+  font-size: 25px;
+  margin-left: 1%;
+
+}
+.header-4
+{
+  position:absolute;
+  top:215%;
+  color:white;
+  font-size: 25px;
+  margin-left: 1%;
+
+}
+.containerr
+{
+ 
+ padding: 10px;
+ width:100%;
+ height:100%;
+ background : url('./images/money.jfif')center/cover ;
+    background-repeat: none;
+}
+
+a
+{
+    margin-left: 35%;
+}
+.card
+{
+    box-shadow:5px 10px 18px#888888; ;
+}
+h3
+{
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.searchbar
+{
+  margin-right:5%;
+  height:5%;
+  width:25%;
+  background-color:rgba(0, 0, 0, 0.375);
+  border-radius: 10px;
+  color:white;
+}
+.logo
+{
+  height:70px;
+  width:180px;
+}
+
+@media screen and (max-width: 600px) {
+    #main
+    {
+        
+        position: absolute;
+        top:60%;
+         
+         width:100%;
+         height:150px; 
+    }
+    #main:hover
+    {
+        
+        position: absolute;
+        top:60%;
+         
+         width:100%;
+         height:150px; 
+    }
+    .movie
+    {
+      width:100px;
+      height:100%;
+      margin:2px;
+    }
+    .movie:hover
+    {
+      width:100px;
+      height:100%;
+      margin:2px;
+    }
+    #main2
+    {
+      position: absolute;
+      top:80%;
+      height:150px;
+      background-color:black;
+    }
+    .movie2
+    {
+      height:100%;
+      margin:5px;
+
+    }
+    .movie2:hover{
+      height:102%;
+    }
+    .parent-container-3
+    {
+      position: absolute;
+      top:130%;
+      height:150px;
+    }
+    .header h1
+    {
+      position:absolute;
+      top:52%;
+      margin-left: 1%;
+      font-size: 20px;
+      color:white;
+    }
+    .header-2 
+    {
+      position:absolute;
+      top:89%;
+      color:white;
+      font-size: 20px;
+      margin-left: 1%;
+    
+    }
+    
+    .header-3 
+    {
+     position: absolute;
+      color:white;
+      top:124%;
+    font-size: 20px;
+    }
+
+    #banner h2
+{
+
+position: absolute;
+font-weight: 150;
+top: 20%;
+left: 2%;
+font-size: 70px;
+color:white;
+font-style:normal;
+}
+#banner
+{
+  height:800px
+}
+#banner h1 
+{
+  display:none;
+
+}
+#banner button
+{
+background-color: rgba(255, 255, 255, 0.463);
+color:white;
+position: absolute;
+border-radius: 10px;
+top:50%;
+left: 2%;
+width:15%;
+height:30px;
+color:white;
+font-size: 20px;
+}
+}
+
+
+  
+
+  .container-1 {
+    width:100%;
+    min-height: 140vh;
+    background: url('./images/backgrounf\ netflix.jpg')center/cover;
+    background-repeat: none;
+  }
+  
+  form {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0.3rem;
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 60px;
+    margin-top: 6rem;
+  }
+  
+  form h1 {
+    margin-bottom: 28px;
+  }
+  
+  .form-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  
+  .form-group input {
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    border: none;
+    border-radius: 0.3rem;
+    outline: none;
+    color: #fff;
+    padding: 16px 20px 0;
+    font-size: 1rem;
+  }
+  
+  .form-group label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: #8c8c8c;
+    pointer-events: none;
+    transition: 200ms ease-in-out transform, 200ms ease-in-out font-size;
+  }
+  
+  .form-group input:focus ~ label, .form-group input:valid ~ label {
+    transform: translateY(-1.25rem);
+    font-size: 0.7rem;
+  }
+  
+  form button {
+    width: 100%;
+    height: 48px;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin: 24px 0 12px;
+   }
+  /* /*   */
+  .remember {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .remember label {
+    font-size: 0.85rem;
+    color: #b3b3b3;
+  }
+  .remember a {
+    color: #b3b3b3;
+    font-size: 0.85rem;
+    text-decoration: none;
+  }
+  .remember a:hover {
+    text-decoration: underline;
+  }
+  
+  .facebook-login {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+  }
+  .facebook-login img {
+    width: 20px;
+    aspect-ratio: 1;
+    margin-right: 10px;
+  }
+  .facebook-login a {
+    color: #737373;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  
+  .signup {
+    margin-top: 16px;
+  }
+  .signup p {
+    color: #737373;
+  }
+  .signup p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .signup p a:hover {
+    text-decoration: underline;
+  }
+  
+  .captcha {
+    font-size: 0.8rem;
+    color: #8c8c8c;
+    margin-top: 0.5rem;
+  }
+  .captcha a {
+    color: #0071eb;
+    text-decoration: none;
+  }
+  .captcha a:hover {
+    text-decoration: underline;
+  }
+   
